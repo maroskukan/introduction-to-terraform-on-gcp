@@ -15,7 +15,7 @@ variable "network_name" {
 
 variable "network_ip_range" {
     type = string
-    default = "10.0.2.0/16"
+    default = "10.2.0.0/16"
 }
 
 variable "image_project" {
@@ -35,5 +35,5 @@ variable "app_name" {
 
 variable "machine_type" {
     type = string
-    default = "e2-micor"
+    default = "e2-micro"
 }
