@@ -56,7 +56,7 @@ resource "google_compute_instance" "blog" {
     }
   }
   network_interface {
-   subnetwork = modules.app_network.subnets_names[0]
+   subnetwork = module.app_network.subnets_names[0]
    access_config {
       # Leave empty for dynamic public IP
     }
