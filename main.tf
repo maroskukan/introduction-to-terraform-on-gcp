@@ -4,5 +4,5 @@ module "qa" {
     project_id = var.project_id
     region = var.region
     app_name = "qa"
-    network_name = "app"
+    network_name = "qa"
 }
