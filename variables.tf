@@ -1,11 +1,11 @@
 variable "project_id" {
     type = string
-    defaut = "terraform-maros"
+    default = "terraform-maros"
 }
 
 variable "region" {
     type = string
-    defaut = "us-west1"
+    default = "us-west1"
 }
 
 variable "network_name" {
